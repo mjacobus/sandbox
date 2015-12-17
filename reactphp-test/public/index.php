@@ -14,7 +14,7 @@ $app = function ($request, $response) {
 
     sleep($time);
 
-    $response->end("Sleept for $time");
+    $response->end("Slept for $time");
 };
 
 $loop = React\EventLoop\Factory::create();
